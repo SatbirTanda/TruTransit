@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wr7-Vw-0cE">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Real-Time Data of the MTA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="tJI-tD-dCY">
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TruTransit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="CPT-pA-qYV">
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tJI-tD-dCY" firstAttribute="trailing" secondItem="CPT-pA-qYV" secondAttribute="trailing" id="BUS-yF-gpb"/>
+                                    <constraint firstItem="tJI-tD-dCY" firstAttribute="trailing" secondItem="Wr7-Vw-0cE" secondAttribute="trailingMargin" id="EGm-FQ-epm"/>
+                                    <constraint firstAttribute="bottom" secondItem="CPT-pA-qYV" secondAttribute="bottom" id="MKb-dn-8pT"/>
+                                    <constraint firstItem="tJI-tD-dCY" firstAttribute="leading" secondItem="Wr7-Vw-0cE" secondAttribute="leadingMargin" id="SEP-Zm-pQb"/>
+                                    <constraint firstItem="tJI-tD-dCY" firstAttribute="centerY" secondItem="Wr7-Vw-0cE" secondAttribute="centerY" id="TeG-g5-UEz"/>
+                                    <constraint firstItem="tJI-tD-dCY" firstAttribute="leading" secondItem="CPT-pA-qYV" secondAttribute="leading" id="VWC-fp-pNY"/>
+                                    <constraint firstItem="CPT-pA-qYV" firstAttribute="top" secondItem="tJI-tD-dCY" secondAttribute="bottom" id="haz-9H-Oet"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WeZ-mO-YfF">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wr7-Vw-0cE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8dx-nG-8VB"/>
+                            <constraint firstItem="WeZ-mO-YfF" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="DUR-Xm-HYh"/>
+                            <constraint firstItem="Wr7-Vw-0cE" firstAttribute="trailing" secondItem="WeZ-mO-YfF" secondAttribute="trailing" id="PAZ-dM-dc6"/>
+                            <constraint firstItem="Wr7-Vw-0cE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="WDy-Jw-KR5"/>
+                            <constraint firstAttribute="trailing" secondItem="Wr7-Vw-0cE" secondAttribute="trailing" id="YrE-oX-Uoy"/>
+                            <constraint firstItem="WeZ-mO-YfF" firstAttribute="top" secondItem="Wr7-Vw-0cE" secondAttribute="bottom" constant="8" symbolic="YES" id="lUB-da-QeC"/>
+                            <constraint firstItem="Wr7-Vw-0cE" firstAttribute="leading" secondItem="WeZ-mO-YfF" secondAttribute="leading" id="uc1-e7-CfT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

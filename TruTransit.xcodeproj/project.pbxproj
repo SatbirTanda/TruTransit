@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D00716D1DB4665200F6D3E6 /* Zipcodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D00716C1DB4665200F6D3E6 /* Zipcodes.swift */; };
+		7D00716F1DB470D900F6D3E6 /* RightArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D00716E1DB470D900F6D3E6 /* RightArrowView.swift */; };
+		7D0071711DB470EE00F6D3E6 /* LeftArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0071701DB470EE00F6D3E6 /* LeftArrowView.swift */; };
+		7D28480A1DABA02C000E1899 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2848091DABA02C000E1899 /* RouteViewController.swift */; };
+		7D46B6B51DA4C9CF0016AB2E /* MTADataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46B6B41DA4C9CF0016AB2E /* MTADataSource.swift */; };
+		7D7ED9D91DAF3AA000F128F5 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7ED9D81DAF3AA000F128F5 /* MaterialButton.swift */; };
+		7DEC836E1D9B22AD00733F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC836D1D9B22AD00733F04 /* AppDelegate.swift */; };
+		7DEC83731D9B22AD00733F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC83711D9B22AD00733F04 /* Main.storyboard */; };
+		7DEC83751D9B22AD00733F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC83741D9B22AD00733F04 /* Assets.xcassets */; };
+		7DEC83781D9B22AD00733F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC83761D9B22AD00733F04 /* LaunchScreen.storyboard */; };
+		7DEC83821D9B26A300733F04 /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC83811D9B26A300733F04 /* Configurations.swift */; };
+		7DEC83851D9B26CE00733F04 /* AlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC83841D9B26CE00733F04 /* AlertProtocol.swift */; };
+		7DEC83871D9B26E300733F04 /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC83861D9B26E300733F04 /* SegueHandlerType.swift */; };
+		7DEC83891D9B270F00733F04 /* CenterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC83881D9B270F00733F04 /* CenterButtonView.swift */; };
+		7DEC83901D9B272C00733F04 /* MTAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC838A1D9B272C00733F04 /* MTAModel.swift */; };
+		7DEC83911D9B272C00733F04 /* MTAStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC838B1D9B272C00733F04 /* MTAStructs.swift */; };
+		7DEC83921D9B272C00733F04 /* MTATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC838C1D9B272C00733F04 /* MTATableView.swift */; };
+		7DEC83931D9B272C00733F04 /* MTATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC838D1D9B272C00733F04 /* MTATableViewCell.swift */; };
+		7DEC83941D9B272C00733F04 /* MTAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC838E1D9B272C00733F04 /* MTAView.swift */; };
+		7DEC83951D9B272C00733F04 /* ParallaxTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC838F1D9B272C00733F04 /* ParallaxTableViewHeader.swift */; };
+		7DEC83971D9B274E00733F04 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC83961D9B274E00733F04 /* TrackerView.swift */; };
+		7DEC83991D9B27A000733F04 /* TransitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC83981D9B27A000733F04 /* TransitViewController.swift */; };
+		7DFCEB8D1DACACC40060A7FB /* MTAPointAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFCEB8C1DACACC40060A7FB /* MTAPointAnnotationView.swift */; };
+		7DFCEB8F1DACACE20060A7FB /* MTABusAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFCEB8E1DACACE20060A7FB /* MTABusAnnotationView.swift */; };
+		7DFCEB921DACAE900060A7FB /* MTABusAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFCEB901DACAE900060A7FB /* MTABusAnnotation.swift */; };
+		7DFCEB931DACAE900060A7FB /* MTAPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFCEB911DACAE900060A7FB /* MTAPointAnnotation.swift */; };
+		F15920417BDA1D22F296EC17 /* Pods_TruTransit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C47D722250826B644391B3 /* Pods_TruTransit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42C47D722250826B644391B3 /* Pods_TruTransit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruTransit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6E3B6DE28A147B312B8908 /* Pods-TruTransit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruTransit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruTransit/Pods-TruTransit.release.xcconfig"; sourceTree = "<group>"; };
+		5BF0036F63721391DA3DF66B /* Pods-TruTransit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruTransit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruTransit/Pods-TruTransit.debug.xcconfig"; sourceTree = "<group>"; };
+		7D00716C1DB4665200F6D3E6 /* Zipcodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zipcodes.swift; sourceTree = "<group>"; };
+		7D00716E1DB470D900F6D3E6 /* RightArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightArrowView.swift; sourceTree = "<group>"; };
+		7D0071701DB470EE00F6D3E6 /* LeftArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftArrowView.swift; sourceTree = "<group>"; };
+		7D0071721DB562A700F6D3E6 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		7D2848091DABA02C000E1899 /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		7D46B6B41DA4C9CF0016AB2E /* MTADataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTADataSource.swift; sourceTree = "<group>"; };
+		7D7ED9D81DAF3AA000F128F5 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		7DEC836A1D9B22AD00733F04 /* TruTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEC836D1D9B22AD00733F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DEC83721D9B22AD00733F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DEC83741D9B22AD00733F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DEC83771D9B22AD00733F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DEC83791D9B22AD00733F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DEC83811D9B26A300733F04 /* Configurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
+		7DEC83841D9B26CE00733F04 /* AlertProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertProtocol.swift; sourceTree = "<group>"; };
+		7DEC83861D9B26E300733F04 /* SegueHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandlerType.swift; sourceTree = "<group>"; };
+		7DEC83881D9B270F00733F04 /* CenterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterButtonView.swift; sourceTree = "<group>"; };
+		7DEC838A1D9B272C00733F04 /* MTAModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAModel.swift; sourceTree = "<group>"; };
+		7DEC838B1D9B272C00733F04 /* MTAStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAStructs.swift; sourceTree = "<group>"; };
+		7DEC838C1D9B272C00733F04 /* MTATableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTATableView.swift; sourceTree = "<group>"; };
+		7DEC838D1D9B272C00733F04 /* MTATableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTATableViewCell.swift; sourceTree = "<group>"; };
+		7DEC838E1D9B272C00733F04 /* MTAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAView.swift; sourceTree = "<group>"; };
+		7DEC838F1D9B272C00733F04 /* ParallaxTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTableViewHeader.swift; sourceTree = "<group>"; };
+		7DEC83961D9B274E00733F04 /* TrackerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
+		7DEC83981D9B27A000733F04 /* TransitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitViewController.swift; sourceTree = "<group>"; };
+		7DFCEB8C1DACACC40060A7FB /* MTAPointAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAPointAnnotationView.swift; sourceTree = "<group>"; };
+		7DFCEB8E1DACACE20060A7FB /* MTABusAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTABusAnnotationView.swift; sourceTree = "<group>"; };
+		7DFCEB901DACAE900060A7FB /* MTABusAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTABusAnnotation.swift; sourceTree = "<group>"; };
+		7DFCEB911DACAE900060A7FB /* MTAPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAPointAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DEC83671D9B22AD00733F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15920417BDA1D22F296EC17 /* Pods_TruTransit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A9810889B61117C8844A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0036F63721391DA3DF66B /* Pods-TruTransit.debug.xcconfig */,
+				5B6E3B6DE28A147B312B8908 /* Pods-TruTransit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49DAD03E8BD0436C78861015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C47D722250826B644391B3 /* Pods_TruTransit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DEC83611D9B22AD00733F04 = {
+			isa = PBXGroup;
+			children = (
+				7DEC836C1D9B22AD00733F04 /* TruTransit */,
+				7DEC836B1D9B22AD00733F04 /* Products */,
+				48A9810889B61117C8844A18 /* Pods */,
+				49DAD03E8BD0436C78861015 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEC836B1D9B22AD00733F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC836A1D9B22AD00733F04 /* TruTransit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DEC836C1D9B22AD00733F04 /* TruTransit */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC83711D9B22AD00733F04 /* Main.storyboard */,
+				7DEC838E1D9B272C00733F04 /* MTAView.swift */,
+				7D00716C1DB4665200F6D3E6 /* Zipcodes.swift */,
+				7DEC838A1D9B272C00733F04 /* MTAModel.swift */,
+				7DEC838B1D9B272C00733F04 /* MTAStructs.swift */,
+				7DEC83961D9B274E00733F04 /* TrackerView.swift */,
+				7DEC838C1D9B272C00733F04 /* MTATableView.swift */,
+				7D46B6B41DA4C9CF0016AB2E /* MTADataSource.swift */,
+				7DEC83881D9B270F00733F04 /* CenterButtonView.swift */,
+				7DEC838D1D9B272C00733F04 /* MTATableViewCell.swift */,
+				7D2848091DABA02C000E1899 /* RouteViewController.swift */,
+				7DEC83981D9B27A000733F04 /* TransitViewController.swift */,
+				7DEC838F1D9B272C00733F04 /* ParallaxTableViewHeader.swift */,
+				7D00716E1DB470D900F6D3E6 /* RightArrowView.swift */,
+				7D0071701DB470EE00F6D3E6 /* LeftArrowView.swift */,
+				7DFCEB941DACAE980060A7FB /* MapKitSubclasses */,
+				7DEC83831D9B26C600733F04 /* Protocols */,
+				7DEC83801D9B269300733F04 /* Environment */,
+				7DEC837F1D9B268400733F04 /* Support */,
+			);
+			path = TruTransit;
+			sourceTree = "<group>";
+		};
+		7DEC837F1D9B268400733F04 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC836D1D9B22AD00733F04 /* AppDelegate.swift */,
+				7DEC83741D9B22AD00733F04 /* Assets.xcassets */,
+				7DEC83761D9B22AD00733F04 /* LaunchScreen.storyboard */,
+				7DEC83791D9B22AD00733F04 /* Info.plist */,
+				7D0071721DB562A700F6D3E6 /* Location.gpx */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		7DEC83801D9B269300733F04 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC83811D9B26A300733F04 /* Configurations.swift */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		7DEC83831D9B26C600733F04 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC83841D9B26CE00733F04 /* AlertProtocol.swift */,
+				7DEC83861D9B26E300733F04 /* SegueHandlerType.swift */,
+				7D7ED9D81DAF3AA000F128F5 /* MaterialButton.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		7DFCEB941DACAE980060A7FB /* MapKitSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				7DFCEB901DACAE900060A7FB /* MTABusAnnotation.swift */,
+				7DFCEB911DACAE900060A7FB /* MTAPointAnnotation.swift */,
+				7DFCEB8C1DACACC40060A7FB /* MTAPointAnnotationView.swift */,
+				7DFCEB8E1DACACE20060A7FB /* MTABusAnnotationView.swift */,
+			);
+			name = MapKitSubclasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DEC83691D9B22AD00733F04 /* TruTransit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEC837C1D9B22AD00733F04 /* Build configuration list for PBXNativeTarget "TruTransit" */;
+			buildPhases = (
+				9C8AB03D25C35ED0E7F1D37F /* [CP] Check Pods Manifest.lock */,
+				7DEC83661D9B22AD00733F04 /* Sources */,
+				7DEC83671D9B22AD00733F04 /* Frameworks */,
+				7DEC83681D9B22AD00733F04 /* Resources */,
+				DD991549ADB5FB57CDE02485 /* [CP] Embed Pods Frameworks */,
+				0F2F17601D8C96F88470DFF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruTransit;
+			productName = TruTransit;
+			productReference = 7DEC836A1D9B22AD00733F04 /* TruTransit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DEC83621D9B22AD00733F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Satbir Tanda";
+				TargetAttributes = {
+					7DEC83691D9B22AD00733F04 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BS2TMM7A48;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7DEC83651D9B22AD00733F04 /* Build configuration list for PBXProject "TruTransit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DEC83611D9B22AD00733F04;
+			productRefGroup = 7DEC836B1D9B22AD00733F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DEC83691D9B22AD00733F04 /* TruTransit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DEC83681D9B22AD00733F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEC83781D9B22AD00733F04 /* LaunchScreen.storyboard in Resources */,
+				7DEC83751D9B22AD00733F04 /* Assets.xcassets in Resources */,
+				7DEC83731D9B22AD00733F04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F2F17601D8C96F88470DFF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruTransit/Pods-TruTransit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8AB03D25C35ED0E7F1D37F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD991549ADB5FB57CDE02485 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruTransit/Pods-TruTransit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DEC83661D9B22AD00733F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D00716D1DB4665200F6D3E6 /* Zipcodes.swift in Sources */,
+				7D00716F1DB470D900F6D3E6 /* RightArrowView.swift in Sources */,
+				7DEC83931D9B272C00733F04 /* MTATableViewCell.swift in Sources */,
+				7D0071711DB470EE00F6D3E6 /* LeftArrowView.swift in Sources */,
+				7DEC83951D9B272C00733F04 /* ParallaxTableViewHeader.swift in Sources */,
+				7DEC83851D9B26CE00733F04 /* AlertProtocol.swift in Sources */,
+				7DEC83821D9B26A300733F04 /* Configurations.swift in Sources */,
+				7DFCEB8D1DACACC40060A7FB /* MTAPointAnnotationView.swift in Sources */,
+				7DEC83991D9B27A000733F04 /* TransitViewController.swift in Sources */,
+				7DEC83941D9B272C00733F04 /* MTAView.swift in Sources */,
+				7DEC83921D9B272C00733F04 /* MTATableView.swift in Sources */,
+				7DFCEB921DACAE900060A7FB /* MTABusAnnotation.swift in Sources */,
+				7D46B6B51DA4C9CF0016AB2E /* MTADataSource.swift in Sources */,
+				7DFCEB931DACAE900060A7FB /* MTAPointAnnotation.swift in Sources */,
+				7DFCEB8F1DACACE20060A7FB /* MTABusAnnotationView.swift in Sources */,
+				7D28480A1DABA02C000E1899 /* RouteViewController.swift in Sources */,
+				7DEC83871D9B26E300733F04 /* SegueHandlerType.swift in Sources */,
+				7D7ED9D91DAF3AA000F128F5 /* MaterialButton.swift in Sources */,
+				7DEC836E1D9B22AD00733F04 /* AppDelegate.swift in Sources */,
+				7DEC83901D9B272C00733F04 /* MTAModel.swift in Sources */,
+				7DEC83911D9B272C00733F04 /* MTAStructs.swift in Sources */,
+				7DEC83891D9B270F00733F04 /* CenterButtonView.swift in Sources */,
+				7DEC83971D9B274E00733F04 /* TrackerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DEC83711D9B22AD00733F04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEC83721D9B22AD00733F04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DEC83761D9B22AD00733F04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEC83771D9B22AD00733F04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DEC837A1D9B22AD00733F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DEC837B1D9B22AD00733F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DEC837D1D9B22AD00733F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF0036F63721391DA3DF66B /* Pods-TruTransit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BS2TMM7A48;
+				INFOPLIST_FILE = TruTransit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.satbirtanda.TruTransit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7DEC837E1D9B22AD00733F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6E3B6DE28A147B312B8908 /* Pods-TruTransit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BS2TMM7A48;
+				INFOPLIST_FILE = TruTransit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.satbirtanda.TruTransit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DEC83651D9B22AD00733F04 /* Build configuration list for PBXProject "TruTransit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEC837A1D9B22AD00733F04 /* Debug */,
+				7DEC837B1D9B22AD00733F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEC837C1D9B22AD00733F04 /* Build configuration list for PBXNativeTarget "TruTransit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEC837D1D9B22AD00733F04 /* Debug */,
+				7DEC837E1D9B22AD00733F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DEC83621D9B22AD00733F04 /* Project object */;
+}

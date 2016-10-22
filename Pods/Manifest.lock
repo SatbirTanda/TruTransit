@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.0.1)
+  - NVActivityIndicatorView (3.0)
+  - Polyline (4.0.0)
+  - SwiftyJSON (3.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - NVActivityIndicatorView
+  - Polyline (~> 4.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  NVActivityIndicatorView: 81953b5e65093ba79edf4fe7268e002039ca5268
+  Polyline: c6de7430bf6ff0bfff1f087343597b83b38fdb69
+  SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
+
+PODFILE CHECKSUM: ff1a898004e6dc41561ae40ef4fcd10096ecb831
+
+COCOAPODS: 1.0.1
