@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TruTransit/RouteViewController.swift"
-            timestampString = "498419760.016875"
+            timestampString = "498939973.622692"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
             landmarkName = "fetchBusLocations(_:callback:)"
             landmarkType = "7">
          </BreakpointContent>

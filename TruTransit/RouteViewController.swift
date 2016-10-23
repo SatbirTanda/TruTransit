@@ -32,6 +32,7 @@ class RouteViewController: UIViewController, MKMapViewDelegate {
     }
     
     private let locationDelta = 0.015
+    private var Cadd = false
     private let MTAPOINT_IDENTIFIER = "MTAPOINT"
     private let MTABUS_IDENTIFIER = "MTABUS"
     private var centerCoordinate: CLLocationCoordinate2D?
@@ -40,6 +41,7 @@ class RouteViewController: UIViewController, MKMapViewDelegate {
     private var centerButton = CenterButtonView(frame: CGRect.zero) {
         didSet {
             if centerButton.frame != CGRect.zero {
+                Cadd = true
                 centerButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(centerButtonTapped(_:))))
             }
         }
@@ -91,8 +93,10 @@ class RouteViewController: UIViewController, MKMapViewDelegate {
     
     private func drawCenterButton() {
         let centerButtonOffset = view.frame.width/25.0
-        centerButton = CenterButtonView(frame: CGRect(x: centerButtonOffset*0.5, y: mapView.frame.height - centerButtonOffset*5.0, width: mapView.frame.width/8.0, height: mapView.frame.width/8.0))
-        mapView.addSubview(centerButton)
+        if !Cadd && centerButton.frame != CGRect(x: centerButtonOffset*0.5, y: mapView.frame.height - centerButtonOffset*5.0, width: mapView.frame.width/8.0, height: mapView.frame.width/8.0) {
+            centerButton = CenterButtonView(frame: CGRect(x: centerButtonOffset*0.5, y: mapView.frame.height - centerButtonOffset*5.0, width: mapView.frame.width/8.0, height: mapView.frame.width/8.0))
+            mapView.addSubview(centerButton)
+        }
     }
     
     private func updateMap(_ flag: Bool = false) {

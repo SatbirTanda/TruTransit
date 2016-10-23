@@ -43,10 +43,10 @@
 		7D00716C1DB4665200F6D3E6 /* Zipcodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zipcodes.swift; sourceTree = "<group>"; };
 		7D00716E1DB470D900F6D3E6 /* RightArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightArrowView.swift; sourceTree = "<group>"; };
 		7D0071701DB470EE00F6D3E6 /* LeftArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftArrowView.swift; sourceTree = "<group>"; };
-		7D0071721DB562A700F6D3E6 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		7D2848091DABA02C000E1899 /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
 		7D46B6B41DA4C9CF0016AB2E /* MTADataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTADataSource.swift; sourceTree = "<group>"; };
 		7D7ED9D81DAF3AA000F128F5 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		7D809D781DBD727500226871 /* East Hampton.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "East Hampton.gpx"; sourceTree = "<group>"; };
 		7DEC836A1D9B22AD00733F04 /* TruTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEC836D1D9B22AD00733F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DEC83721D9B22AD00733F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 				7DEC83741D9B22AD00733F04 /* Assets.xcassets */,
 				7DEC83761D9B22AD00733F04 /* LaunchScreen.storyboard */,
 				7DEC83791D9B22AD00733F04 /* Info.plist */,
-				7D0071721DB562A700F6D3E6 /* Location.gpx */,
+				7D809D781DBD727500226871 /* East Hampton.gpx */,
 			);
 			name = Support;
 			sourceTree = "<group>";
