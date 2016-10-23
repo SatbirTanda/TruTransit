@@ -1,6 +1,6 @@
 # TruTransit
 
-## TruTransit is my open source community based Transit App.  My goal is to allow developers all over the world that live in major metropolitan areas with public transportation to contribute their city's transit information into the app.
+### TruTransit is my open source community based Transit App.  My goal is to allow developers all over the world that live in major metropolitan areas with public transportation to contribute their city's transit information into the app. I think that free data should be easily accessible to the public.
 
 We get our data directly from the MTA. 
 
